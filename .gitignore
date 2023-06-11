@@ -1,0 +1,6 @@
+db.sqlite3
+
+drf_blog/__pycache__
+api/__pycache__
+base/__pycache__
+env.py
