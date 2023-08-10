@@ -6,7 +6,8 @@
 4. use "python manage.py makemigrations" to create a new sqlite database file
 5. use "python manage.py migrate" to migrate the initial settings.
 6. use "python manage.py runserver" to run the backend api on port 8000
-7. Optinal: you can write a docker file and attach a volume to store the sqlite file or use docker-compose with different db container.
+7. Optinal: you can put the entire project into a 'app' folder, then write a docker file and attach a volume to store the sqlite file. \
+Or use docker-compose with different db container.
 
 ```
 FROM python:3.10
